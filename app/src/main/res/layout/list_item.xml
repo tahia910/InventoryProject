@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/small_margin"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/ListItemStyle"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/ListItemStyle"
+        android:paddingLeft="@dimen/medium_padding" />
+
+    <TextView
+        android:id="@+id/quantity"
+        style="@style/ListItemStyle"
+        android:paddingLeft="@dimen/small_padding"/>
+
+    <Button
+        android:id="@+id/sales_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/very_small_margin"
+        android:layout_marginRight="@dimen/small_margin"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:text="@string/sale_fruit"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

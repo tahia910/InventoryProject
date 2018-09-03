@@ -1,0 +1,115 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">Fruit Inventory</string>
+
+    <string name="default_font" translatable="false">sans-serif-smallcaps</string>
+
+    <!-- Titles for the Editor Activity [CHAR LIMIT=20]-->
+    <string name="title_add_a_product">Add a product</string>
+    <string name="title_edit_a_product">Edit a product</string>
+
+    <!-- Title of the ViewDetailsActivity [CHAR LIMIT=20]-->
+    <string name="title_view_details">Product details</string>
+
+    <!-- Text for the Main Activity layout-->
+    <!-- Text for the category titles[CHAR LIMIT=20]-->
+    <string name="title_name">Product</string>
+    <string name="title_price">Price</string>
+    <string name="title_quantity">Quantity</string>
+
+    <!-- Text for the sale button[CHAR LIMIT=20]-->
+    <string name="sale_fruit">Sale</string>
+
+    <!-- Text for the empty view displayed when there is no item in the database [CHAR LIMIT=NONE]-->
+    <string name="empty_text_view">The inventory is empty... \nPlease add products to the
+        inventory by clicking on the button at the bottom right of the screen.</string>
+
+
+    <!-- Text for the Editor and View Details Activities layouts-->
+    <!-- Text for the category titles [CHAR LIMIT=20]-->
+    <string name="category_name">Product name</string>
+    <string name="category_price">Price for 1kg</string>
+    <string name="category_quantity">Quantity</string>
+    <string name="category_supplier_name">Supplier name</string>
+    <string name="category_supplier_phone_number">Supplier phone</string>
+
+    <!-- Text for the product price unity [CHAR LIMIT=2]-->
+    <string name="price_unity">$</string>
+
+    <!-- Text for the product quantity minus and plus buttons [CHAR LIMIT=2]-->
+    <string name="quantity_minus_button">-</string>
+    <string name="quantity_plus_button">+</string>
+
+    <!-- Text for the product quantity unity [CHAR LIMIT=2]-->
+    <string name="quantity_unity">kg</string>
+
+    <!-- Text for the Order button [CHAR LIMIT=20]-->
+    <string name="order">Order</string>
+
+    <!-- Hint texts [CHAR LIMIT=20]-->
+    <string name="hint_name">Name</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_supplier_name">Name</string>
+    <string name="hint_supplier_phone_number">Phone number</string>
+
+
+    <!-- Text for the Menu Options -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit the product</string>
+
+
+    <!-- Text for the Editor Activity's dialog messages-->
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error deleting the product</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE]
+     -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the products [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Delete all the products?</string>
+
+    <!-- Dialog button text for the option to confirm deletion of the product[CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20]
+     -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message when all information fields are empty  [CHAR LIMIT=NONE] -->
+    <string name="editor_all_empty_information">All fields are empty, the product can\'t be saved
+        .</string>
+
+    <!-- Toast message when some or one information field(s) is/are empty  [CHAR
+    LIMIT=NONE]
+     -->
+    <string name="editor_empty_information">Some information are missing.</string>
+
+    <!-- Toast message when new product has been successfully inserted [CHAR LIMIT=NONE]
+     -->
+    <string name="editor_insert_product_successful">Product saved in the inventory</string>
+
+    <!-- Toast message when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving the product</string>
+
+    <!-- Toast message when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product information updated</string>
+
+    <!-- Toast message when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating the product</string>
+
+</resources>

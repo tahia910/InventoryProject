@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/medium_margin"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/ContainerLayoutStyle">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_name" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            style="@style/ProductDetailsStyle"
+            android:hint="@string/hint_name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ContainerLayoutStyle">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_price" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/edit_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/label_price_units"
+                android:hint="@string/hint_price"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_price_units"
+                style="@style/UnityLabelStyle"
+                android:layout_alignParentRight="true"
+                android:text="@string/price_unity" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ContainerLayoutStyle">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_quantity" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/edit_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/label_quantity_units"
+                android:hint="@string/hint_quantity"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_quantity_units"
+                style="@style/UnityLabelStyle"
+                android:layout_alignParentRight="true"
+                android:text="@string/quantity_unity" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ContainerLayoutStyle">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_supplier_name" />
+
+        <EditText
+            android:id="@+id/edit_supplier_name"
+            style="@style/ProductDetailsStyle"
+            android:hint="@string/hint_supplier_name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ContainerLayoutStyle">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_supplier_phone_number" />
+
+        <EditText
+            android:id="@+id/edit_supplier_phone"
+            style="@style/ProductDetailsStyle"
+            android:hint="@string/hint_supplier_phone_number"
+            android:inputType="phone" />
+    </LinearLayout>
+</LinearLayout>

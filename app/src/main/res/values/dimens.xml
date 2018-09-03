@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions of the margins-->
+    <dimen name="very_small_margin">8dp</dimen>
+    <dimen name="small_margin">12dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="very_large_margin">40dp</dimen>
+    <dimen name="extra_margin">100dp</dimen>
+
+    <!-- Dimensions of the paddings-->
+    <dimen name="very_small_padding">4dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">12dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+    <dimen name="very_large_padding">20dp</dimen>
+
+    <!-- Dimensions of the quantity button size in the ViewDetailsActivity -->
+    <dimen name="quantity_button_size">40dp</dimen>
+
+    <!-- Dimensions of the divider of the MainActivity's ListView -->
+    <dimen name="listview_divider">1dp</dimen>
+
+    <!-- Font size of the application's text -->
+    <dimen name="font_size">16sp</dimen>
+</resources>
